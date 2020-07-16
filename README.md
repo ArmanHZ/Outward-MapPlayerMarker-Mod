@@ -1,4 +1,4 @@
-# Outward-MapPlayerMarker-Mod
+# Outward MapPlayerMarker Mod
 This is a simple map marker mod for Outward.
 This mod shows the player position and the direction they are looking at.
 It has been only tested in __Single Player__, but it *should* also work for co-op.
