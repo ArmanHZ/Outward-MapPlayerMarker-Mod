@@ -15,7 +15,7 @@ While making this mod, I have used some code from __https://github.com/sinaioutl
    1. It this is your first mod, the Mods folder will not exists, simply create the Mods folder and the MapPlayerMarker folder inside the Mods folder.
    1. You can change the _**custom_player_marker.png**_ as you wish.
 
-# Knows Bugs
+# Known Bugs
 * Sometimes when opening the map, an NPC will also get his or her marker updated and it will show as the mod's marker. In the code, I always use the Game's method **_IsAI()_** before drawing. I suspect that, this bug is caused in the Game's method. However it does not affect you, nor your gameplay in anyway.
   * If you know a fix to this, please create an Issue.
 
