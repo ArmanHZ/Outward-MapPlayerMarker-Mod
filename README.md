@@ -1,7 +1,6 @@
 # Outward MapPlayerMarker Mod
 This is a simple map marker mod for Outward.
 This mod shows the player position and the direction they are looking at.
-It has been only tested in __Single Player__, but it *should* also work for co-op.
 
 While making this mod, I have used some code from __https://github.com/sinaioutlander/Outward-Mods__. The mentioned repository also contains a lot of different mods.
 
@@ -18,6 +17,7 @@ While making this mod, I have used some code from __https://github.com/sinaioutl
 # Known Bugs
 * Sometimes when opening the map, an NPC will also get his or her marker updated and it will show as the mod's marker. In the code, I always use the Game's method **_IsAI()_** before drawing. I suspect that, this bug is caused in the Game's method. However it does not affect you, nor your gameplay in anyway.
   * If you know a fix to this, please create an Issue.
+* In co-op, the direction of the marker of the players will be the same, however the position is displayed correctly.
 
 # Todo
 * Add pictures of the mod.
